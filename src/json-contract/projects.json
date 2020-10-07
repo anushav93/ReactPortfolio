@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "LaundryMate Website",
+            "technologyImgSrc": "/images/react.jpg",
+            "shortDescription": "Developed a website in ReactJs. Entire solution consists well created reusable components and is written in BEM standards.",
+            "description": "One among two developers who designed and developed LaundryMate website. <br/> <br/> Translated designer mockups and wireframes into front end code using ReactJs, HTML, CSS and Bootstrap. <br/> <br/> Involved in complete SDLC <br/><br/> Requirement Analysis, Development, System and Integration Testing. <br/> <br/> Created reusable components to make the development process easier. <br/> <br/> Entire code is written in BEM standards. <br/> <br/> Used CSS preprocessor SASS to modularize the code by using variables, nesting, mixins and other features. <br/> <br/> Handled cross browser/platform compatibility issues (IE, Firefox, and Safari). <br/>",
+            "technologies": "ReactJS, HTML5, CSS3, SASS, Bootstrap 4",
+            "modalId": "laundrymate",
+            "screenShots": "",
+            "websiteLink": "",
+            "githubLink": ""
+        },
+        {
+            "id": 2,
+            "title": "Giphy add-on",
+            "technologyImgSrc": "/images/xenforo.png",
+            "shortDescription": "Created Giphy add-on for XenForo(CMS) using GIPHY API which displays results in carousel view for providing best User Experience.",
+            "description": " Created Giphy add‐ons for XenForo which makes call to  GIPHY API and returns the requested gifs using PHP, JavaScript and API services. <br/><br/> Worked with WEBAPI's to make calls to thewebservices using URLs, which would perform GET,PUT,POST and DELETE operations on the server. <br/><br/> Involved in complete SDLC ‐ Requirement Analysis, Development, System and Integration Testing. <br/><br/> The results are displayed in a responsive carousel view, adding 5 results in queue when the user clicks Next button. <br/><br/>",
+            "technologies": "XenForo2, JavaScript, PHP, AJAX(for API)",
+            "modalId": "giphy",
+            "screenShots": "",
+            "websiteLink": "",
+            "githubLink": ""
+        },
+        {
+            "id": 3,
+            "title": "Student Portfolio",
+            "technologyImgSrc": "/images/react.jpg",
+            "shortDescription": "Developed a responsive student portfolio to display skills in ReactJs with following User Experience principles and providing clean User Interface. ",
+            "description": "Created portfolio using ReactJs, Bootstrap 4, HTML5, CSS3 and also used several npm packages for providing clean UI. <br/><br/>  Designed vector logo using CorelDraw X8 and used Fireworks for generating graphics with good quality and less size for fast loading. <br/><br/> Entire projects data is displayed from a JSON file. This makes adding new projects to website easy. <br/><br/> Designed and developed in a way that beginners can use it as a template.",
+            "technologies": "ReactJs, Bootstrap4, HTML5, CSS3",
+            "modalId": "portfolio",
+            "screenShots": "",
+            "websiteLink": "",
+            "githubLink": ""
+        }
+    ]
+}
