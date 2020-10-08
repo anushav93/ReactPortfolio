@@ -1,0 +1,23 @@
+.project-card {
+  max-width: 700px;
+  margin: 15px auto;
+  //box-shadow: grey 0 0 5px 0;
+  box-shadow: #808080 0 0 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #8e8d8a;
+  .title {
+    color: #ac3b61;
+    font-size: 28px;
+  }
+
+  .date {
+    color: #2c3531;
+    padding-top: 5px;
+    line-height: 33px;
+  }
+  .desc {
+    color: #8e8d8a;
+    padding: 10px 0;
+  }
+}

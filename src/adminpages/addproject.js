@@ -22,12 +22,12 @@ export default function AddProject(props) {
 
   useEffect(() => {
     fetch(
-      "https://0pbfx5l3l4.execute-api.us-east-2.amazonaws.com/default/fetchProjects",
+      "https://qhd0n7cbga.execute-api.us-east-2.amazonaws.com/default/fetchProjects",
       {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
-          "x-api-key": "2Ghr3vYhBH3CjEtdnQO9J5q3KwDvFidU31BiUYQF",
+          "x-api-key": "O5bBUE3Zsn1kLSjLiNZYSa7wjraMwXCs9vGVyWrg",
         },
       }
     )
