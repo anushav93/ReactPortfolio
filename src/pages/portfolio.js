@@ -35,15 +35,25 @@ export default function Portfolio(props) {
             return (
               <div className="project-card">
                 <div className="d-flex justify-content-between">
-                  <div className="title">{res.title}</div>
-                  <div className="date">
-                    {res.startdate} to {res.enddate}
-                  </div>
+                  {res.title ? <div className="title">{res.title}</div> : null}
+                  {res.startdate ? (
+                    <div className="date">
+                      {res.startdate} to {res.enddate}
+                    </div>
+                  ) : null}
                 </div>
                 {res.shortdescription ? (
-                  <div className="desc">{res.shortdescription}</div>
+                  <div
+                    className="desc"
+                    dangerouslySetInnerHTML={{ __html: res.shortdescription }}
+                  />
                 ) : null}
-                {res.desc ? <div className="desc">{res.desc}</div> : null}
+                {res.desc ? (
+                  <div
+                    className="desc"
+                    dangerouslySetInnerHTML={{ __html: res.desc }}
+                  />
+                ) : null}
 
                 <div className="technologies-used">
                   Technologies Used: <i>{res.technologiesused}</i>

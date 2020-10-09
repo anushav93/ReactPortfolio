@@ -1,11 +1,7 @@
 import React, { useState, useEffect, useParams, useReducer } from "react";
 import { v4 as uuidv4 } from "uuid";
-// import FileUploader from "../components/fileupload";
 
 export default function AddProject(props) {
-  // Declare a new state variable, which we'll call "count"  const [count, setCount] = useState(0);
-  //const { addToast } = useToasts()
-
   const [state, setState] = useState({
     title: "",
     descripiton: "",
@@ -20,20 +16,20 @@ export default function AddProject(props) {
 
   const [formSubmitted, setFormSubmitted] = useState(false);
 
-  useEffect(() => {
-    fetch(
-      "https://qhd0n7cbga.execute-api.us-east-2.amazonaws.com/default/fetchProjects",
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          "x-api-key": "O5bBUE3Zsn1kLSjLiNZYSa7wjraMwXCs9vGVyWrg",
-        },
-      }
-    )
-      .then((res) => res.json())
-      .then((data) => console.log(data));
-  });
+  //   useEffect(() => {
+  //     fetch(
+  //       "https://qhd0n7cbga.execute-api.us-east-2.amazonaws.com/default/fetchProjects",
+  //       {
+  //         method: "GET",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //           "x-api-key": "O5bBUE3Zsn1kLSjLiNZYSa7wjraMwXCs9vGVyWrg",
+  //         },
+  //       }
+  //     )
+  //       .then((res) => res.json())
+  //       .then((data) => console.log(data));
+  //   });
 
   const addProject = () => {
     fetch(
@@ -87,11 +83,6 @@ export default function AddProject(props) {
             <h2 className="text-center mb-3 theme-hover form-header">
               Add Project
             </h2>
-            {/* {requiredFieldErrorMessage ? (
-        <small className="text-center mb-3 text-danger">
-          {requiredFieldErrorMessage}
-        </small>
-      ) : null} */}
 
             <div className="form-group">
               <label>Title</label>
@@ -201,7 +192,6 @@ export default function AddProject(props) {
                 onChange={(e) => setState({ ...state, image: e.target.value })}
               />
             </div>
-            {/* <FileUploader/> */}
 
             <button
               type="submit"
