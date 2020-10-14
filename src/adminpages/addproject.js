@@ -16,21 +16,6 @@ export default function AddProject(props) {
 
   const [formSubmitted, setFormSubmitted] = useState(false);
 
-  //   useEffect(() => {
-  //     fetch(
-  //       "https://qhd0n7cbga.execute-api.us-east-2.amazonaws.com/default/fetchProjects",
-  //       {
-  //         method: "GET",
-  //         headers: {
-  //           "Content-Type": "application/json",
-  //           "x-api-key": "O5bBUE3Zsn1kLSjLiNZYSa7wjraMwXCs9vGVyWrg",
-  //         },
-  //       }
-  //     )
-  //       .then((res) => res.json())
-  //       .then((data) => console.log(data));
-  //   });
-
   const addProject = () => {
     fetch(
       "https://amrk8trped.execute-api.us-east-2.amazonaws.com/default/addProject",

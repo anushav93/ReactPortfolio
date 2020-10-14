@@ -21,7 +21,10 @@ class NavBar extends Component {
         <nav className=" navbar navbar-expand-sm navbar-light fixed-top">
           <div className="container">
             <Link className="brand" to="/">
-              ANUSHA VENTRAPRAGADA
+              <img
+                src="https://react-portfolioimages.s3.us-east-2.amazonaws.com/logo.svg"
+                className="img img-fluid about-image"
+              />
             </Link>
 
             <HamburgerCollapseReverse
@@ -45,21 +48,10 @@ class NavBar extends Component {
                     className="nav-link"
                     onClick={() => this.showHamburgerMenu(false)}
                     activeClassName="nav-link-selected"
-                    to="/"
-                  >
-                    <b>H</b>
-                    OME
-                  </NavLink>
-                </li>
-                <li className="nav-item ">
-                  <NavLink
-                    className="nav-link"
-                    onClick={() => this.showHamburgerMenu(false)}
-                    activeClassName="nav-link-selected"
                     to="/about"
                   >
                     <b>A</b>
-                    BOUT
+                    bout
                   </NavLink>
                 </li>
 
@@ -71,7 +63,7 @@ class NavBar extends Component {
                     to="/portfolio"
                   >
                     <b>P</b>
-                    ORTFOLIO
+                    ortfolio
                   </NavLink>
                 </li>
                 <li className="nav-item ">
@@ -82,7 +74,7 @@ class NavBar extends Component {
                     to="/contact"
                   >
                     <b>C</b>
-                    ONTACT
+                    ontact
                   </NavLink>
                 </li>
               </ul>
