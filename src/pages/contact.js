@@ -92,7 +92,7 @@ export default function Contact(props) {
                     contact_comments
                   )
                 }
-                className="btn btn-primary"
+                className="btn btn-primary btn-lg"
               >
                 Submit
               </button>

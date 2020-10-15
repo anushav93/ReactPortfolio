@@ -17,13 +17,13 @@ class Footer extends Component {
             <div className=" row">
               <div className="col-md-4 o-footer--footer-logo">
                 <Link className="brand" to="/">
-                  <h4 className="theme-pink d-inline-block"> AV</h4>
-                  <h4 className="theme-blue d-inline-block"> Solutions</h4>
+                  <h5 className="theme-pink d-inline-block mb-0"> AV</h5>
+                  <h5 className="theme-blue d-inline-block mb-0">Solutions</h5>
                 </Link>
               </div>
-              <div className="col-md-8 o-footer--copyright text-center">
-                <p className="text-dark">
-                  Copyright © 2020 AV Solutions. All Rights Reserved.
+              <div className="col-md-8 footer--copyright">
+                <p className="text-muted">
+                  © 2020 AVSolutions. All Rights Reserved.
                 </p>
               </div>
               <div className="col-md-2 dmca-badge">

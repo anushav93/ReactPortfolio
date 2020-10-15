@@ -36,7 +36,7 @@ export default function Portfolio(props) {
           ADD NEW PROJECT
         </Link>
       </div>
-      <div className="d-flex flex-row flex-wrap justify-content-center">
+      <div className="d-flex flex-row flex-wrap justify-content-center projects-cards-wrapper">
         {projects
           ? projects.map((res) => {
               return (
